@@ -3,6 +3,23 @@
 > **Eliminates:** `pip install` C-extension wheel failures, `conda` bloat, virtualenv conflicts, duplicate native binaries.  
 > **Canonical Store:** [`awesome-os/b8g-ghost @ cas-v1`](https://github.com/awesome-os/b8g-ghost/releases/tag/cas-v1) (`manifests/index.json`)
 
+## Quick Install & Usage
+
+### Install via `pnpm` (or release tarball)
+
+```powershell
+pnpm add github:awesome-os/ghost-py
+```
+
+Or download the latest SHA-256 verified archive from [`Releases`](https://github.com/awesome-os/ghost-py/releases/latest).
+
+### Usage & Verification
+
+```powershell
+# Hydrate & invoke libbrotli directly from Ghost CAS (pure Python 3 stdlib)
+python3 ghost_ffi.py
+```
+
 ## 1-Line Usage (Pure Python 3 Stdlib — Zero `pip install`)
 
 ```python
