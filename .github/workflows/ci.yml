@@ -1,0 +1,17 @@
+name: CI — ghost-py (Zero-pip, Zero-conda Live Native FFI Verification)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify-ghost-py:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run Live Native BrotliDecoderVersion() via Canonical O(1) cas-v1
+        run: python3 ghost_ffi.py
