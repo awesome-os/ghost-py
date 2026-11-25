@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/ghost-py",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/ghost-py/ghost-py-v0.2.0.tar.zst",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "74327f1fcc945231370ba4fca50e18863cacac8e420bb6b652f4a9b23913fc6a8c15379608cba7198e2e31e23f853da8adc0ffa0da619a891d81debc64504935",
+      "size": 2385,
+      "executable": false,
+      "blob": "v11/files/74/74327f1fcc945231370ba4fca50e18863cacac8e420bb6b652f4a9b23913fc6a8c15379608cba7198e2e31e23f853da8adc0ffa0da619a891d81debc64504935",
+      "url": "https://github.com/awesome-os/ghost-py/releases/download/v0.2.0/ghost-py-v0.2.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/ghost-py/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "030e2f6df6de9f94929f5102f4f05622a34ec65a486ae12a375cfef0154e59e55a555db35895a964ce5fcc6704ba386fcc43ee4989b6f8124fad62a10077832d",
+      "size": 90,
+      "executable": false,
+      "blob": "v11/files/03/030e2f6df6de9f94929f5102f4f05622a34ec65a486ae12a375cfef0154e59e55a555db35895a964ce5fcc6704ba386fcc43ee4989b6f8124fad62a10077832d",
+      "url": "https://github.com/awesome-os/ghost-py/releases/download/v0.2.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/ghost-py/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.0",
+      "target": "any",
+      "sha512": "24f6d8359223a3f61dbfdb4dad256a9710a2b41f2466669e2087c9101fec77d5bb1b55b429fcb4704e39d34d76d21e28a75a85e8724fc7e3d2309d88df3ada94",
+      "size": 154,
+      "executable": false,
+      "blob": "v11/files/24/24f6d8359223a3f61dbfdb4dad256a9710a2b41f2466669e2087c9101fec77d5bb1b55b429fcb4704e39d34d76d21e28a75a85e8724fc7e3d2309d88df3ada94",
+      "url": "https://github.com/awesome-os/ghost-py/releases/download/v0.2.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
